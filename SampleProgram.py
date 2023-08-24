@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-response      = requests.get("http://apis.data.go.kr/1160100/service/GetStockSecuritiesInfoService/getStockPriceInfo?serviceKey=N75UTryvGV295zcwfNIYtroM2LKmdXqu5GruQvKBV5DIN54YmJ1%2FDeKTxwc6rQbgu6B46iI2yiypunvx%2BHtPNw%3D%3D&numOfRows=10&resultType=json")
+response      = requests.get("http://apis.data.go.kr/1160100/service/GetStockSecuritiesInfoService/getStockPriceInfo?serviceKey=insert_api_key&numOfRows=10&resultType=json")
 response_dict = response.json()
 
 data_dictionary = {}  
